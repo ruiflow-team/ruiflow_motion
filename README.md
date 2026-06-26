@@ -18,9 +18,9 @@ python3 tools/qao/ruiflow_v20_real_motion_pipeline.py --prompt "亢龙有悔"
 
 ## Live Demo
 
-🎬 **[Product Demo Video](https://github.com/ruiflow-team/ruiflow_motion/raw/main/ruiflow_product_demo.mp4)** — 14s, 960×600, H.264
+🎬 **[Product Demo Video](https://raw.githubusercontent.com/ruiflow-team/ruiflow-team.github.io/main/assets/ruiflow_product_demo_v1.mp4)** — 14s, 960×600, H.264
 
-> Real-time 3D skeletal animation rendered via WebGL preview
+> Real-time 3D skeletal animation rendered via WebGL preview (武侠3D角色: 降龙十八掌/六脉神剑/太极拳/独孤九剑/乾坤大挪移)
 
 ## Architecture
 
