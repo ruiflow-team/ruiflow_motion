@@ -5,22 +5,59 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.9+-green.svg)
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Model%20Available-orange)
+![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey.svg)
+![Last Commit](https://img.shields.io/github/last-commit/ruiflow-team/ruiflow_motion.svg)
+![Repo Size](https://img.shields.io/github/repo-size/ruiflow-team/ruiflow_motion.svg)
+
+## Installation
+
+```bash
+# Clone repository
+git clone https://github.com/ruiflow-team/ruiflow_motion.git
+cd ruiflow_motion
+
+# Install dependencies (Python 3.9+)
+pip install torch transformers scipy numpy
+
+# Verify installation
+python3 -c "import torch; print(f'PyTorch {torch.__version__} ready')"
+```
 
 ## Quick Start
 
 ```bash
-# Install dependencies
-pip install torch transformers scipy numpy
-
-# Generate motion from text prompt
+# Generate motion from text prompt (outputs 7-joint, 14-frame numerical angles)
 python3 tools/qao/ruiflow_v20_real_motion_pipeline.py --prompt "亢龙有悔"
+
+# Generate + export to GLB for Blender/Unity/Unreal
+python3 tools/qao/ruiflow_v20_real_motion_pipeline.py --prompt "太极拳" --output taiji.glb
+
+# Launch WebGL 3D preview
+python3 -m http.server 8080 --directory webgl-preview
 ```
+
+## Output Format
+
+| Component | Spec |
+|-----------|------|
+| Joints | 7-joint kinematic chain |
+| Frames | 14 frames @ 24fps |
+| Angles | Euler degrees (numerical) |
+| Export | GLB / GLTF / JSON |
+| Preview | WebGL (hardware-accelerated, 60fps) |
 
 ## Live Demo
 
-🎬 **[Product Demo Video](https://raw.githubusercontent.com/ruiflow-team/ruiflow-team.github.io/main/assets/ruiflow_product_demo_v1.mp4)** — 14s, 960×600, H.264
+🎬 **Product Demo (1080p)** — 90s, H.264, narrated, 5 Wuxia 3D Characters
 
-> Real-time 3D skeletal animation rendered via WebGL preview (武侠3D角色: 降龙十八掌/六脉神剑/太极拳/独孤九剑/乾坤大挪移)
+[![Demo Video](./assets/demo_thumbnail.jpg)](https://ruiflow-team.github.io/assets/ruiflow_full_demo_narrated_20260628.mp4)
+
+> **Terminal**: `python3 tools/qao/ruiflow_v20_real_motion_pipeline.py --prompt "亢龙有悔"`  
+> **Output**: 7-joint, 14-frame numerical angles → WebGL 3D skeletal animation  
+> **Characters**: 降龙十八掌 / 六脉神剑 / 太极拳 / 独孤九剑 / 乾坤大挪移
+>
+> 📁 Assets: [`ruiflow_full_demo_narrated_20260628.mp4`](https://ruiflow-team.github.io/assets/ruiflow_full_demo_narrated_20260628.mp4) (1920×1080, 90s, narrated, HTTP/2 200 public CDN)
 
 ## Architecture
 
