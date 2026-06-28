@@ -1,0 +1,342 @@
+{
+  "motion": {
+    "prompt": "亢龙有悔",
+    "template_matched": "synthesized:generic",
+    "template_tags": [
+      "generic",
+      "synthesized"
+    ],
+    "num_frames": 14,
+    "frame_rate": 24,
+    "duration_sec": 0.583,
+    "frames": [
+      {
+        "time": 0.0,
+        "phase": "ready",
+        "joint_angles_deg": {
+          "shoulder_l": -0.321,
+          "shoulder_r": -0.031,
+          "elbow_l": -0.076,
+          "elbow_r": 7.916,
+          "hip_yaw": 0.93,
+          "knee_l": -0.384,
+          "knee_r": -0.146
+        },
+        "displacement_m": {
+          "dx": -0.142,
+          "dy": 0.666,
+          "dz": -0.449
+        },
+        "speed": 0.289
+      },
+      {
+        "time": 0.0769,
+        "phase": "ready",
+        "joint_angles_deg": {
+          "shoulder_l": -0.299,
+          "shoulder_r": 0.189,
+          "elbow_l": -0.255,
+          "elbow_r": 6.9590000000000005,
+          "hip_yaw": 0.163,
+          "knee_l": 0.911,
+          "knee_r": -0.863
+        },
+        "displacement_m": {
+          "dx": -0.48,
+          "dy": -0.826,
+          "dz": 0.7
+        },
+        "speed": -0.4
+      },
+      {
+        "time": 0.1538,
+        "phase": "weight_shift",
+        "joint_angles_deg": {
+          "shoulder_l": -3.499,
+          "shoulder_r": 1.909,
+          "elbow_l": -0.938,
+          "elbow_r": 11.968,
+          "hip_yaw": -0.08100000000000002,
+          "knee_l": -2.249,
+          "knee_r": -2.8160000000000003
+        },
+        "displacement_m": {
+          "dx": 0.14300000000000002,
+          "dy": 0.197,
+          "dz": -0.426
+        },
+        "speed": 0.305
+      },
+      {
+        "time": 0.2308,
+        "phase": "weight_shift",
+        "joint_angles_deg": {
+          "shoulder_l": -3.2780000000000005,
+          "shoulder_r": 1.894,
+          "elbow_l": -1.559,
+          "elbow_r": 11.899000000000001,
+          "hip_yaw": 0.24400000000000005,
+          "knee_l": -3.1029999999999998,
+          "knee_r": -4.1770000000000005
+        },
+        "displacement_m": {
+          "dx": 0.703,
+          "dy": -0.84,
+          "dz": -0.889
+        },
+        "speed": -0.5720000000000001
+      },
+      {
+        "time": 0.3077,
+        "phase": "sword_init",
+        "joint_angles_deg": {
+          "shoulder_l": -8.055000000000001,
+          "shoulder_r": 11.44,
+          "elbow_l": -3.651,
+          "elbow_r": 24.317,
+          "hip_yaw": -1.052,
+          "knee_l": -6.2909999999999995,
+          "knee_r": -4.872999999999999
+        },
+        "displacement_m": {
+          "dx": -0.547,
+          "dy": -0.221,
+          "dz": -0.249
+        },
+        "speed": -0.312
+      },
+      {
+        "time": 0.3846,
+        "phase": "sword_init",
+        "joint_angles_deg": {
+          "shoulder_l": -7.931000000000001,
+          "shoulder_r": 12.258999999999999,
+          "elbow_l": -2.04,
+          "elbow_r": 24.781,
+          "hip_yaw": -1.553,
+          "knee_l": -6.857,
+          "knee_r": -5.507
+        },
+        "displacement_m": {
+          "dx": -0.025,
+          "dy": 0.23900000000000002,
+          "dz": -0.808
+        },
+        "speed": -0.10400000000000004
+      },
+      {
+        "time": 0.4615,
+        "phase": "peak_slash",
+        "joint_angles_deg": {
+          "shoulder_l": -4.412,
+          "shoulder_r": 15.261,
+          "elbow_l": -3.982,
+          "elbow_r": 39.028,
+          "hip_yaw": -4.304,
+          "knee_l": -14.767,
+          "knee_r": -4.603000000000001
+        },
+        "displacement_m": {
+          "dx": 0.052000000000000005,
+          "dy": 0.751,
+          "dz": 0.619
+        },
+        "speed": 1.06
+      },
+      {
+        "time": 0.5385,
+        "phase": "peak_slash",
+        "joint_angles_deg": {
+          "shoulder_l": -4.241,
+          "shoulder_r": 14.593,
+          "elbow_l": -4.068,
+          "elbow_r": 39.704,
+          "hip_yaw": -4.581,
+          "knee_l": -16.4,
+          "knee_r": -3.9880000000000004
+        },
+        "displacement_m": {
+          "dx": -0.309,
+          "dy": 0.983,
+          "dz": -0.288
+        },
+        "speed": -0.20099999999999996
+      },
+      {
+        "time": 0.6154,
+        "phase": "follow_through",
+        "joint_angles_deg": {
+          "shoulder_l": -2.865,
+          "shoulder_r": 9.671,
+          "elbow_l": -10.273,
+          "elbow_r": 21.465999999999998,
+          "hip_yaw": 7.327,
+          "knee_l": -14.081,
+          "knee_r": -11.773
+        },
+        "displacement_m": {
+          "dx": 0.236,
+          "dy": 0.01,
+          "dz": -0.198
+        },
+        "speed": 0.318
+      },
+      {
+        "time": 0.6923,
+        "phase": "follow_through",
+        "joint_angles_deg": {
+          "shoulder_l": -1.866,
+          "shoulder_r": 9.659,
+          "elbow_l": -9.686,
+          "elbow_r": 20.564,
+          "hip_yaw": 6.457,
+          "knee_l": -12.879999999999999,
+          "knee_r": -13.21
+        },
+        "displacement_m": {
+          "dx": 0.831,
+          "dy": -0.574,
+          "dz": -0.064
+        },
+        "speed": 1.022
+      },
+      {
+        "time": 0.7692,
+        "phase": "deceleration",
+        "joint_angles_deg": {
+          "shoulder_l": -3.382,
+          "shoulder_r": 6.588,
+          "elbow_l": -1.749,
+          "elbow_r": 12.938,
+          "hip_yaw": -0.20399999999999996,
+          "knee_l": -1.5299999999999998,
+          "knee_r": 0.469
+        },
+        "displacement_m": {
+          "dx": 0.785,
+          "dy": -0.71,
+          "dz": 0.322
+        },
+        "speed": 1.085
+      },
+      {
+        "time": 0.8462,
+        "phase": "deceleration",
+        "joint_angles_deg": {
+          "shoulder_l": -2.601,
+          "shoulder_r": 6.036,
+          "elbow_l": -1.655,
+          "elbow_r": 12.321000000000002,
+          "hip_yaw": -1.315,
+          "knee_l": -0.30499999999999994,
+          "knee_r": -0.548
+        },
+        "displacement_m": {
+          "dx": -0.34199999999999997,
+          "dy": -0.861,
+          "dz": 0.859
+        },
+        "speed": -0.04400000000000001
+      },
+      {
+        "time": 0.9231,
+        "phase": "hold",
+        "joint_angles_deg": {
+          "shoulder_l": -0.637,
+          "shoulder_r": -0.601,
+          "elbow_l": 0.533,
+          "elbow_r": 9.014,
+          "hip_yaw": 0.043,
+          "knee_l": -0.436,
+          "knee_r": 0.28
+        },
+        "displacement_m": {
+          "dx": 0.402,
+          "dy": 0.429,
+          "dz": 0.521
+        },
+        "speed": -0.322
+      },
+      {
+        "time": 1.0,
+        "phase": "hold",
+        "joint_angles_deg": {
+          "shoulder_l": 0.638,
+          "shoulder_r": -0.129,
+          "elbow_l": 0.788,
+          "elbow_r": 8.578,
+          "hip_yaw": 0.831,
+          "knee_l": -0.748,
+          "knee_r": -0.211
+        },
+        "displacement_m": {
+          "dx": -0.648,
+          "dy": -0.504,
+          "dz": -0.567
+        },
+        "speed": -0.943
+      }
+    ],
+    "metadata": {
+      "pipeline": "ruiflow_v20_real_motion_pipeline.py v20.1",
+      "generated_at": "2026-06-27T07:18:21.705662+00:00",
+      "data_seed": 844803920,
+      "motion_type": "numeric_joint_angles_and_displacement",
+      "evidence_level": "L2+ (numeric joint angles, not token fillers)"
+    }
+  },
+  "statistics": {
+    "shoulder_l": {
+      "min": -8.055,
+      "max": 0.638,
+      "range": 8.693,
+      "mean": -3.054
+    },
+    "shoulder_r": {
+      "min": -0.601,
+      "max": 15.261,
+      "range": 15.862,
+      "mean": 6.338
+    },
+    "elbow_l": {
+      "min": -10.273,
+      "max": 0.788,
+      "range": 11.061,
+      "mean": -2.758
+    },
+    "elbow_r": {
+      "min": 6.959,
+      "max": 39.704,
+      "range": 32.745,
+      "mean": 17.961
+    },
+    "hip_yaw": {
+      "min": -4.581,
+      "max": 7.327,
+      "range": 11.908,
+      "mean": 0.207
+    },
+    "knee_l": {
+      "min": -16.4,
+      "max": 0.911,
+      "range": 17.311,
+      "mean": -5.651
+    },
+    "knee_r": {
+      "min": -13.21,
+      "max": 0.469,
+      "range": 13.679,
+      "mean": -3.712
+    },
+    "speed": {
+      "min": -0.943,
+      "max": 1.085,
+      "range": 2.028,
+      "mean": 0.084
+    },
+    "unique_phases_used": 7,
+    "total_frames": 14,
+    "total_motion_range_deg": 111.259,
+    "motion_has_real_content": true
+  }
+}

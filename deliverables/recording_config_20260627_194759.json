@@ -1,0 +1,41 @@
+{
+  "project": "ruiflow_motion",
+  "phase": 3,
+  "timestamp": "20260627_194759",
+  "target_specs": {
+    "resolution": "1920x1080",
+    "duration_seconds": 90,
+    "fps": 30,
+    "codec": "H264",
+    "audio": "AAC 128kbps"
+  },
+  "segments": [
+    {
+      "type": "title_card",
+      "duration": 5,
+      "content": "ruiflow_motion - 武侠3D角色动作生成"
+    },
+    {
+      "type": "terminal_recording",
+      "duration": 20,
+      "commands": [
+        "cd ruiflow_motion",
+        "python3 -m http.server 8080 &",
+        "./scripts/start_webgl_demo.sh"
+      ]
+    },
+    {
+      "type": "web_ui_recording",
+      "duration": 35,
+      "url": "http://localhost:8080",
+      "actions": ["展示5种角色", "播放动画", "切换视角"]
+    },
+    {
+      "type": "outro",
+      "duration": 30,
+      "content": "开源地址: github.com/ruiflow/motion"
+    }
+  ],
+  "narration_file": "narration_script_20260627_194759.txt",
+  "output_file": "ruiflow_product_demo_final_20260627_194759.mp4"
+}

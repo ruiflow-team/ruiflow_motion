@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-06-27T20:17:00+08:00",
+  "phase": "FP-004_Phase3",
+  "evidence_level": "L3",
+  "title": "GUI Screen Recording Technical Plan",
+  "findings": {
+    "ffmpeg_available": true,
+    "ffmpeg_version": "8.1.1",
+    "ffmpeg_path": "/opt/homebrew/bin/ffmpeg",
+    "display_available": true,
+    "gpu": "Apple M4",
+    "metal_support": "Metal 4"
+  },
+  "recording_options": {
+    "option_1_ffmpeg_avfoundation": {
+      "command": "ffmpeg -f avfoundation -i \"1:none\" -r 30 -s 1920x1080 -pix_fmt yuv420p demo_gui.mp4",
+      "pros": ["CLI自动化", "1080p直接输出", "可集成到脚本"],
+      "cons": ["需测试display索引", "macOS权限需配置"],
+      "evidence_level": "L4_if_success"
+    },
+    "option_2_screencapture_cli": {
+      "command": "screencapture -v -V 1080 demo_gui.mp4",
+      "pros": ["原生支持", "无需额外安装"],
+      "cons": ["仅视频无音频需合并", "交互式需指定区域"],
+      "evidence_level": "L3"
+    },
+    "option_3_quicktime_automation": {
+      "approach": "osascript控制QuickTime Player",
+      "pros": ["最高质量", "内置画外音支持"],
+      "cons": ["自动化复杂", "需UI交互"],
+      "evidence_level": "L2"
+    }
+  },
+  "recommended_approach": "option_1_ffmpeg_avfoundation",
+  "rationale": "CEO Autopilot Engine 要求 CLI 自动化 + L4 证据，ffmpeg 可直接集成到现有 record_demo.sh",
+  "next_action": "测试 ffmpeg avfoundation 录屏并验证输出",
+  "blockers": ["需确认 display 索引 (0或1)", "需测试音频捕获方案"],
+  "updated_at": "2026-06-27T20:17:00+08:00"
+}
