@@ -57,7 +57,7 @@ python3 -m http.server 8080 --directory webgl-preview
 > **Output**: 7-joint, 14-frame numerical angles → WebGL 3D skeletal animation  
 > **Characters**: 降龙十八掌 / 六脉神剑 / 太极拳 / 独孤九剑 / 乾坤大挪移
 >
-> 📁 Assets: [`ruiflow_full_demo_narrated_20260628.mp4`](https://ruiflow-team.github.io/assets/ruiflow_full_demo_narrated_20260628.mp4) (1920×1080, 90s, narrated, raw direct link)
+> 📁 Assets: [`ruiflow_full_demo_narrated_20260628.mp4`](https://ruiflow-team.github.io/assets/ruiflow_full_demo_narrated_20260628.mp4) (1920×1080, 90s, narrated, CDN direct link)
 
 ## Architecture
 
@@ -88,3 +88,4 @@ See [STATUS.md](./STATUS.md) for L3-verified component health.
 ## Repository
 
 - **GitHub**: https://github.com/ruiflow-team/ruiflow_motion
+- **Workspace**: https://github.com/ruiflow-team/ruiflow_motion
