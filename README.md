@@ -51,14 +51,14 @@ python3 -m http.server 8080 --directory webgl-preview
 
 🎬 **Product Demo (1080p)** — 90s, H.264, narrated, 5 Wuxia 3D Characters
 
-[![Demo Video](./assets/demo_thumbnail.jpg)](https://ruiflow-team.github.io/assets/ruiflow_product_demo_final.mp4)
+[![Demo Video](./assets/demo_thumbnail.jpg)](https://raw.githubusercontent.com/ruiflow-team/ruiflow_motion/master/assets/ruiflow_product_demo_final.mp4)
 
 > **Terminal**: `python3 tools/qao/ruiflow_v20_real_motion_pipeline.py --prompt "亢龙有悔"`  
 > **Output**: 7-joint, 14-frame numerical angles → WebGL 3D skeletal animation  
 > **Characters**: 降龙十八掌 / 六脉神剑 / 太极拳 / 独孤九剑 / 乾坤大挪移
 >
-> 📁 Assets: [`ruiflow_product_demo_final.mp4`](https://ruiflow-team.github.io/assets/ruiflow_product_demo_final.mp4) (1920×1080, 3s, 3.0Mbps H.264 + audio, CDN)
-> 📁 Extra: [`ruiflow_product_demo_1080p.mp4`](https://ruiflow-team.github.io/assets/ruiflow_product_demo_1080p.mp4) (1920×1080, 14s, 416kbps H.264, CDN)
+> 📁 Assets: [`ruiflow_product_demo_final.mp4`](https://raw.githubusercontent.com/ruiflow-team/ruiflow_motion/master/assets/ruiflow_product_demo_final.mp4) (1920×1080, 3s, 3.0Mbps H.264 + audio, raw)
+> 📁 Extra: [`ruiflow_product_demo_1080p.mp4`](https://raw.githubusercontent.com/ruiflow-team/ruiflow_motion/master/assets/ruiflow_product_demo_1080p.mp4) (1920×1080, 14s, 416kbps H.264, raw)
 
 ## Architecture
 
